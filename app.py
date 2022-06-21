@@ -1,5 +1,6 @@
 from crypt import methods
 from flask import Flask, render_template, request
+from flask.ext.sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
